@@ -1,4 +1,4 @@
-# Gatsby webpage built upon the gatsby-simplefolio template
+# Gatsby webpage for OrdningFTW
 
 ## How To Use
 
@@ -25,10 +25,10 @@ Once your server has started, go to this url `http://localhost:8000/` and you wi
 ## Authors
 
 - 
-## License 📄
+## License 
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments 🎁
+## Acknowledgments 
 
-- **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev) - Creating the template[Gastby-Simplefolio](https://github.com/cobidev/gatsby-simplefolio), which this webpage is built upon.
+- **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev) - Creating the template [Gastby-Simplefolio](https://github.com/cobidev/gatsby-simplefolio), which this webpage is built upon.
