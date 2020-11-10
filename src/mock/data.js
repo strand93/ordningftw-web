@@ -2,64 +2,55 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
+  title: 'Ordning FTW', // e.g: 'Name | Developer'
+  lang: 'sv', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Välkommen till',
+  name: 'Ordning FTW',
+  subtitle: 'Ett litet företag för ordning och reda',
+  cta: 'Om mig',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profil.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'header.jpg',
+    title: 'Städning',
+    info: 'Vi hjälper dig... ....',
+    info2: 'Och ...',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'header.jpg',
+    title: 'Organisera',
+    info: 'Behöver du hjälpa att få lite ordning...',
+    info2: 'Ditt garage eller ...',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+    repo: '', // if no repo, the button will not show up
+  }
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: '',
-  email: '',
+  btn: 'Maila',
+  email: 'alexander.strand93@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +58,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
+      name: 'facebook',
+      url: 'https://www.instagram.com/ordningftw/',
     },
     {
       id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: '',
-    },
+      name: 'instagram',
+      url: 'https://www.instagram.com/ordningftw/',
+    }
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
