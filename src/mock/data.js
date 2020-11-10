@@ -16,7 +16,7 @@ export const heroData = {
 };
 
 // ABOUT DATA
-export const aboutData = {
+export const aboutData = { //comment
   img: 'profil.jpg',
   paragraphOne: '',
   paragraphTwo: '',
